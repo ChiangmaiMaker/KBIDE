@@ -2,8 +2,7 @@
 
 import {app, protocol, BrowserWindow, ipcMain} from "electron";
 import {
-  createProtocol,
-  installVueDevtools
+  createProtocol  
 } from "vue-cli-plugin-electron-builder/lib";
 const path = require("path");
 
@@ -64,7 +63,7 @@ app.on("activate", () => {
 app.on("ready", async () => {
   if (isDevelopment && !process.env.IS_TEST) {
     // Install Vue Devtools
-    await installVueDevtools();
+    // await installVueDevtools();
   }
   createWindow();
 });

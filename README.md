@@ -14,6 +14,10 @@ first run CMD as Administrator and install build tool first
 - npm run electron:rebuild
 - npm run electron:rebuild-serial
 
+### NOTE for window
+vs 2017 needed download via : https://stackoverflow.com/questions/55837625/how-to-download-visual-studio-community-edition-2017-not-2019
+node v14 is OK
+
 ## MacOS Install
 - git clone --recursive https://github.com/MakerAsia/KBProIDE
 - cd KBProIDE 
